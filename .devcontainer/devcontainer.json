@@ -24,9 +24,17 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "cweijan.vscode-mysql-client2"
-      ],
-      "settings": {}
+				"Shopify.ruby-lsp",
+				"misogi.ruby-rubocop",
+				"mrmlnc.vscode-duplicate"
+			],
+      "settings": {
+				"editor.tabSize": 2,
+				"editor.renderWhitespace": "all",
+				"files.trimTrailingWhitespace": true,
+				"files.insertFinalNewline": true,
+				"diffEditor.ignoreTrimWhitespace": false
+			}
     }
   }
 
